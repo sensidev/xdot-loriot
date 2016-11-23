@@ -1,5 +1,3 @@
-#include "mbed.h"
-
 // DevAddr
 static uint8_t network_address[] = { 0x11, 0x22, 0x33, 0x44 };
 
