@@ -1,0 +1,6 @@
+auth/loriot.h
+.DS_Store
+.build
+.mbed
+.temp
+mbed*.py*
