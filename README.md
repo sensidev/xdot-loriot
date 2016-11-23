@@ -10,10 +10,10 @@ This is an adaptation of the original manual ABP (Activation by personalization)
 1. [Install](https://gist.github.com/joegoggins/7763637) `gcc-arm-none-eabi` with homebrew.
 1. Multitech [mLinux Conduit Gateway with LoRa mCard](http://www.multitech.com/brands/multiconnect-conduit) and [xDot-DK](http://www.multitech.com/brands/multiconnect-xdot).
 
-# Loriot
+# Setup
 
-1. Clone this repo and change dir into it.
-1. Create a loriot free account and register your gateway.
+1. `mbed import https://github.com/sensidev/xdot-loriot`.
+1. Create a [Loriot](https://www.loriot.io/) free account and register your gateway.
 1. Generate a new device.
 1. Take the device's `DevAddr`, `NwkSKey`, `AppSKey` (use the big endian).
 1. Use `utils/hex_to_bytes_array.py 11223344` to obtain byte arrays.
