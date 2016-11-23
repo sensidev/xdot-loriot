@@ -8,6 +8,7 @@ This is an adaptation of the original manual ABP (Activation by personalization)
 1. Use a Mac OS (>=10.11.6) PC.
 1. Installed the mbed [toolchain](https://docs.mbed.com/docs/mbed-os-handbook/en/5.1/dev_tools/cli/).
 1. [Install](https://gist.github.com/joegoggins/7763637) `gcc-arm-none-eabi` with homebrew.
+1. Multitech [mLinux Conduit Gateway with LoRa mCard](http://www.multitech.com/brands/multiconnect-conduit) and [xDot-DK](http://www.multitech.com/brands/multiconnect-xdot).
 
 # Loriot
 

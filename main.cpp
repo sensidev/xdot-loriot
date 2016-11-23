@@ -44,6 +44,10 @@ int main() {
     config();
 
     while (true) {
+
+        // Wait for the light sensor to be ready.
+        wait(1);
+
         light = read_light_sensor_data();
 
         tx_data.clear();
