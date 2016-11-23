@@ -15,3 +15,4 @@ This is an adaptation of the original manual ABP (Activation by personalization)
 # Notes
 
 1. Be sure to use the correct mbed-os library version, that is tested and supported by the libxdot-mbed5 library. https://developer.mbed.org/teams/MultiTech/code/libxDot-mbed5/
+1. To see the debug logs coming from xDot you need to connect to the serial interface through USB. e.g. `screen /dev/cu.usbmodem14222 115200`
