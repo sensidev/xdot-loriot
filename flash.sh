@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPO_NAME="xdot-loriot"
+REPO_NAME=${PWD##*/}
 DEVICE_NAME="XDOT"
 
 # Skip compiling and flash the existing binary. Use "previous" argument.
